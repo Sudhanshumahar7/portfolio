@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i>
+                <span>Sudhanshu</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-circle"></i>
+                    Available for opportunities
+                </div>
+                <h1>
+                    Hi, I'm <span class="gradient-text">Sudhanshu</span>
+                </h1>
+                <p class="hero-subtitle">Full-Stack Developer & Problem Solver</p>
+                <p class="hero-description">
+                    Third-year B.S. student in Mathematics and Computing at IIT Kharagpur.
+                    I build scalable web applications, intelligent systems, and high-performance
+                    software solutions with modern technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get in Touch
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/Sudhanshumahar7" target="_blank" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sudhanshu-mahar/" target="_blank" class="social-link"
+                        title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:sudhanshumahar2401@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+916375733845" class="social-link" title="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-bg"></div>
+                    <div class="profile-photo">
+                        <img src="personalImage/IMG20250814200117.jpg.jpeg" alt="Sudhanshu">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">About Me</div>
+                <h2 class="section-title">Passionate about building impactful technology</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content animate-on-scroll">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I'm a dedicated full-stack developer with a strong mathematical foundation from IIT Kharagpur.
+                        My journey in tech is driven by a passion for creating efficient, scalable solutions that solve
+                        real-world problems.
+                    </p>
+                    <p>
+                        With hands-on experience in React, Next.js, FastAPI, and modern databases, I specialize in
+                        building
+                        end-to-end applications—from interactive dashboards to complex backend systems with AI
+                        integrations.
+                    </p>
+                    <p>
+                        Beyond coding, I'm a team player who thrives in collaborative environments, with proven
+                        leadership
+                        experience in technical competitions and creative projects.
+                    </p>
+                </div>
+                <div class="about-stats animate-on-scroll">
+                    <div class="stat-card">
+                        <div class="stat-number">8.06</div>
+                        <div class="stat-label">CGPA at IIT Kharagpur</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Full-Stack Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Top 2%</div>
+                        <div class="stat-label">JEE Advanced 2023</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years of Development Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Education</div>
+                <h2 class="section-title">Academic Background</h2>
+                <p class="section-subtitle">Strong foundation in mathematics, computing, and software engineering</p>
+            </div>
+            <div class="education-timeline">
+                <div class="edu-card animate-on-scroll">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <div>
+                                <div class="edu-title">B.S. in Mathematics and Computing</div>
+                                <div class="edu-school">Indian Institute of Technology, Kharagpur</div>
+                            </div>
+                            <span class="edu-year">2023 — 2027</span>
+                        </div>
+                        <div class="edu-detail">CGPA: 8.06 / 10 | Focus on Algorithms, Machine Learning, and Software
+                            Engineering</div>
+                    </div>
+                </div>
+                <div class="edu-card animate-on-scroll">
+                    <div class="edu-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <div>
+                                <div class="edu-title">Senior Secondary (CBSE) — Class 12th</div>
+                                <div class="edu-school">Satya Lakshya Euro World School</div>
+                            </div>
+                            <span class="edu-year">2023</span>
+                        </div>
+                        <div class="edu-detail">Score: 92%</div>
+                    </div>
+                </div>
+                <div class="edu-card animate-on-scroll">
+                    <div class="edu-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <div>
+                                <div class="edu-title">Secondary (CBSE) — Class 10th</div>
+                                <div class="edu-school">Good Shepherd Public School</div>
+                            </div>
+                            <span class="edu-year">2021</span>
+                        </div>
+                        <div class="edu-detail">Score: 94.16%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Experience</div>
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">Professional journey and industry exposure</p>
+            </div>
+            <div class="experience-list" id="experience-list">
+                <!-- Experience will be rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A collection of my technical work across full-stack development and AI
+                    systems</p>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Expertise</div>
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I use to bring ideas to life</p>
+            </div>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Recognition</div>
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">Milestones that mark my journey of excellence</p>
+            </div>
+            <div class="achievements-grid" id="achievements-grid">
+                <!-- Achievements will be rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Coursework Section -->
+    <section class="coursework" id="coursework">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Academics</div>
+                <h2 class="section-title">Relevant Coursework</h2>
+            </div>
+            <div class="coursework-grid">
+                <div class="coursework-category animate-on-scroll">
+                    <div class="coursework-title">
+                        <i class="fas fa-calculator"></i>
+                        Mathematics
+                    </div>
+                    <div class="course-list">
+                        <span class="course-item">Linear Algebra</span>
+                        <span class="course-item">Probability & Statistics</span>
+                        <span class="course-item">Stochastic Processes</span>
+                        <span class="course-item">Real Analysis</span>
+                        <span class="course-item">Modern Algebra</span>
+                        <span class="course-item">Advanced Calculus</span>
+                        <span class="course-item">Numerical Analysis</span>
+                        <span class="course-item">Complex Analysis</span>
+                        <span class="course-item">Topology</span>
+                        <span class="course-item">Transform Calculus</span>
+                        <span class="course-item">Econometric Analysis</span>
+                    </div>
+                </div>
+                <div class="coursework-category animate-on-scroll">
+                    <div class="coursework-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Computer Science
+                    </div>
+                    <div class="course-list">
+                        <span class="course-item">Programming & Data Structures</span>
+                        <span class="course-item">Design & Analysis of Algorithms</span>
+                        <span class="course-item">Theory of Computation</span>
+                        <span class="course-item">Combinatorics & Graph Theory</span>
+                        <span class="course-item">Image Processing</span>
+                        <span class="course-item">Computer Organization</span>
+                        <span class="course-item">Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications">
+        <div class="section-container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Certifications</div>
+                <h2 class="section-title">Certifications & Training</h2>
+            </div>
+            <div class="education-timeline">
+                <div class="edu-card animate-on-scroll">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <div>
+                                <div class="edu-title">Supervised Machine Learning: Regression and Classification</div>
+                                <div class="edu-school">Coursera — Andrew Ng | Stanford Online</div>
+                            </div>
+                            <span class="edu-year">May 2024</span>
+                        </div>
+                        <div class="edu-detail">Covered supervised learning, gradient descent, feature engineering,
+                            regularization, and model optimization techniques.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="contact-box animate-on-scroll">
+                <h2 class="contact-title">Let's Work Together</h2>
+                <p class="contact-text">
+                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                    vision.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:sudhanshumahar2401@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        Email Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/sudhanshu-mahar/" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/Sudhanshumahar7" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="tel:+916375733845" class="contact-link">
+                        <i class="fas fa-phone"></i>
+                        +91 6375733845
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> Sudhanshu. Built with passion and precision.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
